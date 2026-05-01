@@ -12,3 +12,9 @@ link.style.fontWeight = "bold";
 }
 });
 });
+// Affichage d'un message de confirmation a la soumission
+function confirmerSoumission(event) {
+event.preventDefault();
+alert("Votre demande de reservation a bien ete envoyee !");
+event.target.reset();
+}
