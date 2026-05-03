@@ -88,3 +88,32 @@ footer {
     color: #cccccc;
     font-size: 0.85rem;
 }
+/* Formulaires */
+.form-section {
+max-width: 600px;
+margin: 40px auto;
+padding: 0 20px;
+}
+.form-section h2 {
+color: #1a3a5c;
+margin-bottom: 24px;
+}
+label {
+display: block;
+font-weight: bold;
+margin-top: 16px;
+margin-bottom: 6px;
+color: #1a3a5c;
+}
+input, select, textarea {
+width: 100%;
+padding: 10px 12px;
+border: 1px solid #cccccc;
+border-radius: 5px;
+font-size: 0.95rem;
+}
+input:focus, select:focus, textarea:focus {
+outline: none;
+border-color: #1a3a5c;
+box-shadow: 0 0 0 2px rgba(26, 58, 92, 0.15);
+}
